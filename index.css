@@ -48,25 +48,10 @@ body {
   width: 44px;
 }
 
-/*.background-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}*/
-
 .arcade-mode {
-/*  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url("/Star-Path/background.png");
-  background-size: cover;
-  background-position: center;*/
   position: relative;
   z-index: 1;
   width: 100%;
-  /*height: 100vh;*/
 }
 
 .arcade-mode::before {
@@ -76,7 +61,7 @@ body {
   left: 0;
   width: 100%;
   height: 35%;
-  background-image: url("/assets/ground.png");
+  background-image: url("/Desert-Run/assets/ground.png");
   background-size: cover;
   background-position: center;
   z-index: 0;
